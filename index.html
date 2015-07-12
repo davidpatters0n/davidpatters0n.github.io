@@ -1,0 +1,115 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>David.github.io by k0954342</title>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="javascripts/respond.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!--[if lt IE 8]>
+    <link rel="stylesheet" href="stylesheets/ie.css">
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+  </head>
+   <body>
+      <div class="wrapper">
+        <section>
+          <div id="title">
+            <h1>David Patterson</h1>
+              <hr>
+          </div>
+                <div class="highlight">
+                    <pre><span class="k">class</span> <span class="nc">Me</span>
+  <span class="c1"># David Patterson BSc</span>
+  <span class="c1">#   - Computer Science, Kingston University - First Class Honours</span>
+  <span class="c1">#   - Born in London, United Kingdom</span>
+  <span class="c1">#   - Lives in Toronto, Canada</span>
+  <span class="c1">#   - Enjoys programming and problem solving</span>
+  <span class="c1">#   - Like to go to the gym and keep myself actively fit. </span>
+  <span class="c1">#   - Can find me on stackoverflow <a href="http://stackoverflow.com/users/529640/david">David</a></span>
+
+  <span class="no">TRAITS</span> <span class="o">=</span> <span class="sx">%w[reliable trustworthy has_initiative friendly]</span>
+
+  <span class="kp">include</span> <span class="no">Skillset</span>
+  <span class="kp">include</span> <span class="no">Contact</span>
+
+  <span class="k">def</span> <span class="nf">ruby_on_rails_experience</span>
+    <span class="n">working_with_rails</span><span class="o">.</span><span class="n">since</span> <span class="s1">'2011'</span>
+  <span class="k">end</span>
+
+  <span class="k">def</span> <span class="nf">work_experience</span>
+    <span class="n">belongs_to</span> <span class="no"><a href="https://www.awesomeweb.com/">Awesome Web</a></span><span class="p">,</span> <span class="ss">from</span><span class="p">:</span> <span class="mi">Oct</span><span class="p">(</span><span class="no">2014</span><span class="p">)</span><span class="o"> -</span><span class="mi"> Feb</span><span class="p">(</span><span class="no">2015</span><span class="p">)</span> <span class="ss">as</span><span class="p">:</span> <span class="no">Feelance Developer</span>
+    <span class="n">belongs_to</span> <span class="no"><a href="http://www.bookingbug.com/">BookingBug</a></span><span class="p">,</span> <span class="ss">from</span><span class="p">:</span> <span class="mi">Dec</span><span class="p">(</span><span class="no">2013</span><span class="p">)</span><span class="o"> -</span><span class="mi"> May</span><span class="p">(</span><span class="no">2015</span><span class="p">)</span> <span class="ss">as</span><span class="p">:</span> <span class="no">Developer</span>
+    <span class="n">belongs_to</span> <span class="no"><a href="http://www.aicorporation.com/">AI Corporation</a></span><span class="p">,</span> <span class="ss">from</span><span class="p">:</span> <span class="mi">Aug</span><span class="p">(</span><span class="no">2013</span><span class="p">)</span><span class="o"> - </span><span class="mi">Dec</span><span class="p">(</span><span class="no">2013</span><span class="p">)</span> <span class="ss">as</span><span class="p">:</span> <span class="no">Backend Developer</span>
+    <span class="n">belongs_to</span> <span class="no"><a href="http://www.dai.co.uk/">DAI</a></span><span class="p">,</span> <span class="ss">from</span><span class="p">:</span> <span class="mi">Jun</span><span class="p">(</span><span class="no">2012</span><span class="p">)</span><span class="o"> - </span><span class="mi">Jul</span><span class="p">(</span><span class="no">2013</span><span class="p">)</span> <span class="ss">as</span><span class="p">:</span> <span class="no">Developer(Intern)</span>
+    <span class="n">belongs_to</span> <span class="no"><a href="http://migroup.co.uk">MIUK</a></span><span class="p">,</span> <span class="ss">from</span><span class="p">:</span> <span class="mi">Apr</span><span class="p">(</span><span class="no">2009</span><span class="p">)</span><span class="o"> - </span><span class="mi">Aug</span><span class="p">(</span><span class="no">2009</span><span class="p">)</span> <span class="ss">as</span><span class="p">:</span> <span class="no">Intern Web Developer</span>
+ <span class="k">end</span>
+<span class="k">end</span>
+</pre>
+</div
+>                <hr>
+                <hr>
+                <div class="highlight">
+                    <pre><span class="k">module</span> <span class="nn">SkillSet</span>
+  <span class="k">def</span> <span class="nf">skills</span>
+    <span class="p">{</span>
+      <span class="ss">ruby</span><span class="p">:</span>                 <span class="sx">%w[1.8.7 1.9.3 2.0]</span><span class="p">,</span>
+      <span class="ss">rails</span><span class="p">:</span>                <span class="sx">%w[3.x 4.x]</span><span class="p">,</span>
+      <span class="ss">testing</span><span class="p">:</span>              <span class="sx">%w[RSpec(2.14) Cucumber Capybara]</span><span class="p">,</span>
+      <span class="ss">frontend</span><span class="p">:</span>             <span class="sx">%w[Bootstrap JavaScript AngularJS Ember.js]</span><span class="p">,</span>
+      <span class="ss">template languages</span><span class="p">:</span>   <span class="sx">%w[HTML ERB HAML Liquid HandleBars]</span><span class="p">,</span>
+      <span class="ss">stylesheet languages</span><span class="p">:</span> <span class="sx">%w[CSS SASS Less]</span><span class="p">,</span>
+
+      <span class="ss">deployment</span><span class="p">:</span>           <span class="sx">%w[Heroku Nginx Phusion_Passenger]</span><span class="p">,</span>
+      <span class="ss">authorization</span><span class="p">:</span>        <span class="sx">%w[cancan pundit]</span><span class="p">,</span>
+      <span class="ss">super.merge</span><span class="p">: </span>         <span class="sx">%w[SQL MySQL Postgres MongoDB]</span>
+      <span class="ss">authentication</span><span class="p">:</span>       <span class="sx">%w[devise]</span><span class="p">,</span>
+      <span class="ss">background_jobs</span><span class="p">:</span>      <span class="sx">%w[heroku-scheduler delyed_jobs sidekiq]</span><span class="p">,</span>
+      <span class="ss">maintenance</span><span class="p">:</span>          <span class="sx">%w[airbrake newrelic circle-ci papertrail]</span><span class="p">,</span>
+
+      <span class="ss">issue_tracking</span>        <span class="sx">%w[Jira Asana BaseCamp LightHouse Redmine Pivotaltracker]</span>
+      <span class="ss">other_languages</span>       <span class="sx">%w[C,Java,XML]</span>
+      <span class="ss">version_control</span><span class="p">:</span>      <span class="ss">:git</span>
+      <span class="ss">methodologies</span>         <span class="ss">:agile</span>
+      <span class="ss">data_modeling</span><span class="p">:</span>        <span class="kp">true</span>
+      <span class="ss">database_management</span><span class="p">:</span>  <span class="kp">true</span>
+    <span class="p">}</span>
+  <span class="k">end</span>
+
+  <span class="k">def</span> <span class="nf">coding_environment</span>
+    <span class="p">{</span>
+      <span class="ss">editor</span><span class="p">:</span>            <span class="sx">%w[RubyMine VIM]</span><span class="p">,</span>
+      <span class="ss">operating_system</span><span class="p">:</span>  <span class="sx">%w[Windows Linux_Mint Mac]</span>
+    <span class="p">}</span>
+  <span class="k">end</span>
+<span class="k">end</span>
+</pre>
+</div>
+                <hr>
+                <hr>
+                <div class="highlight">
+                    <pre><span class="k">module</span> <span class="nn">Contact</span>
+
+   <span class="k">def</span> <span class="nf">Details</span>
+     <span class="p">{</span>
+       <span class="ss">IRC</span><span class="p">:</span>             <span class="sx">%w[Ruby RubyOnRails jQuery-ui]</span>
+       <span class="ss">skype</span><span class="p">:</span>           <span class="ss">k0954342</span>
+       <span class="ss">email</span><span class="p">:</span>           <span class="ss">dpatterson2008@hotmail.com</span>
+       <span class="ss">GitHub</span><span class="p">:</span>          <span class='ss'><a href="https://github.com/davidpatters0n">davidpatters0n</a></span>
+  <span class="p">}</span>
+   <span class="k">end</span>
+<span class="k">end</span>
+</pre>
+</div>            </section>
+
+        </div>
+        <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+
+    </body>
+</html>
