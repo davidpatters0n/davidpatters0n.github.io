@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DJ Patterson - Ruby / JS / Go Developer in London</title>
+    <link>https://davidpatters0n.github.io/</link>
+    <description>Recent content on DJ Patterson - Ruby / JS / Go Developer in London</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>DJ Patterson</copyright>
+    <lastBuildDate>Fri, 13 Aug 2021 13:07:41 +0100</lastBuildDate><atom:link href="https://davidpatters0n.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hello World</title>
+      <link>https://davidpatters0n.github.io/posts/hello-world/</link>
+      <pubDate>Fri, 13 Aug 2021 13:07:41 +0100</pubDate>
+      
+      <guid>https://davidpatters0n.github.io/posts/hello-world/</guid>
+      <description>Hello, world! The first post is always going to be the hardest. So here it goes, you can expect to find all my random ramblings or findings about things that I&amp;rsquo;ve learned.</description>
+      <content>&lt;p&gt;Hello, world! The first post is always going to be the hardest. So here it goes, you can expect to find all my random ramblings or findings about things that I&amp;rsquo;ve learned.&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>About Me</title>
+      <link>https://davidpatters0n.github.io/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://davidpatters0n.github.io/about/</guid>
+      <description>class Me # DJ Patterson BSc # - Computer Science, Kingston University - First Class Honours # - Born in London, United Kingdom # - Lived in Toronto, Canada for 5 years # - Enjoys programming and problem solving # - Like to go to the gym and keep myself actively fit. TRAITS = %w(reliable trustworthy has_initiative friendly) include SkillSet include Contact attr_accessor :ruby_on_rails_experience def initialize(year: 2011) @ruby_on_rails_experience = {working_with_rails_since: year} end def work_experience belongs_to :shopify, from: Jun(2021) - Present as: Senior Developer, Money belongs_to :universe, from: Feb(2019) - May(2021) as: Lead Engineer, Payments belongs_to :universe, from: Jul(2017) - Jan(2019) as: Senior Developer belongs_to :universe, from: Jun(2015) - Jul(2017) as: Developer belongs_to :awesome_web, from: Oct(2014) - Feb(2015) as: Feelance Developer belongs_to :bookingbug, from: Dec(2013) - May(2015) as: Developer belongs_to :dai, from: Jun(2012) - Jul(2013) as: Developer(Intern) belongs_to :miuk, from: Apr(2009) - Aug(2009) as: Intern Web Developer end end  module SkillSet def skills { ruby: %w(1.</description>
+      <content>&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-ruby&#34; data-lang=&#34;ruby&#34;&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Me&lt;/span&gt;
+  &lt;span style=&#34;color:#75715e&#34;&gt;# DJ Patterson BSc&lt;/span&gt;
+  &lt;span style=&#34;color:#75715e&#34;&gt;#   - Computer Science, Kingston University - First Class Honours&lt;/span&gt;
+  &lt;span style=&#34;color:#75715e&#34;&gt;#   - Born in London, United Kingdom&lt;/span&gt;
+  &lt;span style=&#34;color:#75715e&#34;&gt;#   - Lived in Toronto, Canada for 5 years&lt;/span&gt;
+  &lt;span style=&#34;color:#75715e&#34;&gt;#   - Enjoys programming and problem solving&lt;/span&gt;
+  &lt;span style=&#34;color:#75715e&#34;&gt;#   - Like to go to the gym and keep myself actively fit.&lt;/span&gt;
+
+  &lt;span style=&#34;color:#66d9ef&#34;&gt;TRAITS&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;%w(reliable trustworthy has_initiative friendly)&lt;/span&gt;
+
+  &lt;span style=&#34;color:#66d9ef&#34;&gt;include&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;SkillSet&lt;/span&gt;
+  &lt;span style=&#34;color:#66d9ef&#34;&gt;include&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;Contact&lt;/span&gt;
+
+  &lt;span style=&#34;color:#66d9ef&#34;&gt;attr_accessor&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;:ruby_on_rails_experience&lt;/span&gt;
+
+  &lt;span style=&#34;color:#66d9ef&#34;&gt;def&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;initialize&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;year&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;2011&lt;/span&gt;)
+    @ruby_on_rails_experience &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; {&lt;span style=&#34;color:#e6db74&#34;&gt;working_with_rails_since&lt;/span&gt;: year}
+  &lt;span style=&#34;color:#66d9ef&#34;&gt;end&lt;/span&gt;
+
+  &lt;span style=&#34;color:#66d9ef&#34;&gt;def&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;work_experience&lt;/span&gt;
+    belongs_to &lt;span style=&#34;color:#e6db74&#34;&gt;:shopify&lt;/span&gt;,     &lt;span style=&#34;color:#e6db74&#34;&gt;from&lt;/span&gt;: &lt;span style=&#34;color:#66d9ef&#34;&gt;Jun&lt;/span&gt;(&lt;span style=&#34;color:#ae81ff&#34;&gt;2021&lt;/span&gt;) &lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;Present&lt;/span&gt;   &lt;span style=&#34;color:#e6db74&#34;&gt;as&lt;/span&gt;: &lt;span style=&#34;color:#66d9ef&#34;&gt;Senior&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;Developer&lt;/span&gt;, &lt;span style=&#34;color:#66d9ef&#34;&gt;Money&lt;/span&gt;
+    belongs_to &lt;span style=&#34;color:#e6db74&#34;&gt;:universe&lt;/span&gt;,    &lt;span style=&#34;color:#e6db74&#34;&gt;from&lt;/span&gt;: &lt;span style=&#34;color:#66d9ef&#34;&gt;Feb&lt;/span&gt;(&lt;span style=&#34;color:#ae81ff&#34;&gt;2019&lt;/span&gt;) &lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;May&lt;/span&gt;(&lt;span style=&#34;color:#ae81ff&#34;&gt;2021&lt;/span&gt;) &lt;span style=&#34;color:#e6db74&#34;&gt;as&lt;/span&gt;: &lt;span style=&#34;color:#66d9ef&#34;&gt;Lead&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;Engineer&lt;/span&gt;, &lt;span style=&#34;color:#66d9ef&#34;&gt;Payments&lt;/span&gt;
+    belongs_to &lt;span style=&#34;color:#e6db74&#34;&gt;:universe&lt;/span&gt;,    &lt;span style=&#34;color:#e6db74&#34;&gt;from&lt;/span&gt;: &lt;span style=&#34;color:#66d9ef&#34;&gt;Jul&lt;/span&gt;(&lt;span style=&#34;color:#ae81ff&#34;&gt;2017&lt;/span&gt;) &lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;Jan&lt;/span&gt;(&lt;span style=&#34;color:#ae81ff&#34;&gt;2019&lt;/span&gt;) &lt;span style=&#34;color:#e6db74&#34;&gt;as&lt;/span&gt;: &lt;span style=&#34;color:#66d9ef&#34;&gt;Senior&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;Developer&lt;/span&gt;
+    belongs_to &lt;span style=&#34;color:#e6db74&#34;&gt;:universe&lt;/span&gt;,    &lt;span style=&#34;color:#e6db74&#34;&gt;from&lt;/span&gt;: &lt;span style=&#34;color:#66d9ef&#34;&gt;Jun&lt;/span&gt;(&lt;span style=&#34;color:#ae81ff&#34;&gt;2015&lt;/span&gt;) &lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;Jul&lt;/span&gt;(&lt;span style=&#34;color:#ae81ff&#34;&gt;2017&lt;/span&gt;) &lt;span style=&#34;color:#e6db74&#34;&gt;as&lt;/span&gt;: &lt;span style=&#34;color:#66d9ef&#34;&gt;Developer&lt;/span&gt;
+    belongs_to &lt;span style=&#34;color:#e6db74&#34;&gt;:awesome_web&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;from&lt;/span&gt;: &lt;span style=&#34;color:#66d9ef&#34;&gt;Oct&lt;/span&gt;(&lt;span style=&#34;color:#ae81ff&#34;&gt;2014&lt;/span&gt;) &lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;Feb&lt;/span&gt;(&lt;span style=&#34;color:#ae81ff&#34;&gt;2015&lt;/span&gt;) &lt;span style=&#34;color:#e6db74&#34;&gt;as&lt;/span&gt;: &lt;span style=&#34;color:#66d9ef&#34;&gt;Feelance&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;Developer&lt;/span&gt;
+    belongs_to &lt;span style=&#34;color:#e6db74&#34;&gt;:bookingbug&lt;/span&gt;,  &lt;span style=&#34;color:#e6db74&#34;&gt;from&lt;/span&gt;: &lt;span style=&#34;color:#66d9ef&#34;&gt;Dec&lt;/span&gt;(&lt;span style=&#34;color:#ae81ff&#34;&gt;2013&lt;/span&gt;) &lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;May&lt;/span&gt;(&lt;span style=&#34;color:#ae81ff&#34;&gt;2015&lt;/span&gt;) &lt;span style=&#34;color:#e6db74&#34;&gt;as&lt;/span&gt;: &lt;span style=&#34;color:#66d9ef&#34;&gt;Developer&lt;/span&gt;
+    belongs_to &lt;span style=&#34;color:#e6db74&#34;&gt;:dai&lt;/span&gt;,         &lt;span style=&#34;color:#e6db74&#34;&gt;from&lt;/span&gt;: &lt;span style=&#34;color:#66d9ef&#34;&gt;Jun&lt;/span&gt;(&lt;span style=&#34;color:#ae81ff&#34;&gt;2012&lt;/span&gt;) &lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;Jul&lt;/span&gt;(&lt;span style=&#34;color:#ae81ff&#34;&gt;2013&lt;/span&gt;) &lt;span style=&#34;color:#e6db74&#34;&gt;as&lt;/span&gt;: &lt;span style=&#34;color:#66d9ef&#34;&gt;Developer&lt;/span&gt;(&lt;span style=&#34;color:#66d9ef&#34;&gt;Intern&lt;/span&gt;)
+    belongs_to &lt;span style=&#34;color:#e6db74&#34;&gt;:miuk&lt;/span&gt;,        &lt;span style=&#34;color:#e6db74&#34;&gt;from&lt;/span&gt;: &lt;span style=&#34;color:#66d9ef&#34;&gt;Apr&lt;/span&gt;(&lt;span style=&#34;color:#ae81ff&#34;&gt;2009&lt;/span&gt;) &lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;Aug&lt;/span&gt;(&lt;span style=&#34;color:#ae81ff&#34;&gt;2009&lt;/span&gt;) &lt;span style=&#34;color:#e6db74&#34;&gt;as&lt;/span&gt;: &lt;span style=&#34;color:#66d9ef&#34;&gt;Intern&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;Web&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;Developer&lt;/span&gt;
+  &lt;span style=&#34;color:#66d9ef&#34;&gt;end&lt;/span&gt;
+&lt;span style=&#34;color:#66d9ef&#34;&gt;end&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-ruby&#34; data-lang=&#34;ruby&#34;&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;module&lt;/span&gt; SkillSet
+  &lt;span style=&#34;color:#66d9ef&#34;&gt;def&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;skills&lt;/span&gt;
+    {
+      &lt;span style=&#34;color:#e6db74&#34;&gt;ruby&lt;/span&gt;:                 &lt;span style=&#34;color:#e6db74&#34;&gt;%w(1.8.7 1.9.3 2.0 3.0)&lt;/span&gt;,
+      &lt;span style=&#34;color:#e6db74&#34;&gt;rails&lt;/span&gt;:                &lt;span style=&#34;color:#e6db74&#34;&gt;%w(3.x 4.x 5.x 6.x)&lt;/span&gt;,
+      &lt;span style=&#34;color:#e6db74&#34;&gt;testing&lt;/span&gt;:              &lt;span style=&#34;color:#e6db74&#34;&gt;%w(RSpec Minitest Cucumber Capybara)&lt;/span&gt;,
+      &lt;span style=&#34;color:#e6db74&#34;&gt;frontend&lt;/span&gt;:             &lt;span style=&#34;color:#e6db74&#34;&gt;%w(React Angular Ember Backbone)&lt;/span&gt; ,
+      &lt;span style=&#34;color:#e6db74&#34;&gt;template_languages&lt;/span&gt;:   &lt;span style=&#34;color:#e6db74&#34;&gt;%w(HTML ERB HAML Liquid HandleBars)&lt;/span&gt;,
+      &lt;span style=&#34;color:#e6db74&#34;&gt;stylesheet_languages&lt;/span&gt;: &lt;span style=&#34;color:#e6db74&#34;&gt;%w(CSS SASS Less Tailwind)&lt;/span&gt;,
+      &lt;span style=&#34;color:#e6db74&#34;&gt;typing&lt;/span&gt;:               &lt;span style=&#34;color:#e6db74&#34;&gt;%w(Sorbet Typescript Flow)&lt;/span&gt;,
+
+      &lt;span style=&#34;color:#e6db74&#34;&gt;deployment&lt;/span&gt;:           &lt;span style=&#34;color:#e6db74&#34;&gt;%w(Heroku Nginx Phusion_Passenger)&lt;/span&gt;,
+      &lt;span style=&#34;color:#e6db74&#34;&gt;authorization&lt;/span&gt;:        &lt;span style=&#34;color:#e6db74&#34;&gt;%w(cancan pundit)&lt;/span&gt;,
+      &lt;span style=&#34;color:#e6db74&#34;&gt;databases&lt;/span&gt;:            &lt;span style=&#34;color:#e6db74&#34;&gt;%w(SQL MySQL Postgres MongoDB)&lt;/span&gt;,
+      &lt;span style=&#34;color:#e6db74&#34;&gt;authentication&lt;/span&gt;:       &lt;span style=&#34;color:#e6db74&#34;&gt;%w(devise)&lt;/span&gt;,
+      &lt;span style=&#34;color:#e6db74&#34;&gt;background_jobs&lt;/span&gt;:      &lt;span style=&#34;color:#e6db74&#34;&gt;%w(heroku-scheduler delyed_jobs sidekiq)&lt;/span&gt;,
+      &lt;span style=&#34;color:#e6db74&#34;&gt;maintenance&lt;/span&gt;:          &lt;span style=&#34;color:#e6db74&#34;&gt;%w(CircleCI Sentry Datadog Newrelic)&lt;/span&gt;,
+
+      &lt;span style=&#34;color:#e6db74&#34;&gt;issue_tracking&lt;/span&gt;:       &lt;span style=&#34;color:#e6db74&#34;&gt;%w(Jira Asana BaseCamp LightHouse)&lt;/span&gt;,
+      &lt;span style=&#34;color:#e6db74&#34;&gt;other_languages&lt;/span&gt;:      &lt;span style=&#34;color:#e6db74&#34;&gt;%w(Go, Elixir, C, Java)&lt;/span&gt;,
+      &lt;span style=&#34;color:#e6db74&#34;&gt;version_control&lt;/span&gt;:      &lt;span style=&#34;color:#e6db74&#34;&gt;:git&lt;/span&gt;,
+      &lt;span style=&#34;color:#e6db74&#34;&gt;methodologies&lt;/span&gt;:        &lt;span style=&#34;color:#e6db74&#34;&gt;:agile&lt;/span&gt;,
+      &lt;span style=&#34;color:#e6db74&#34;&gt;data_modeling&lt;/span&gt;:        &lt;span style=&#34;color:#66d9ef&#34;&gt;true&lt;/span&gt;,
+      &lt;span style=&#34;color:#e6db74&#34;&gt;database_management&lt;/span&gt;:  &lt;span style=&#34;color:#66d9ef&#34;&gt;true&lt;/span&gt;
+    }
+  &lt;span style=&#34;color:#66d9ef&#34;&gt;end&lt;/span&gt;
+
+  &lt;span style=&#34;color:#66d9ef&#34;&gt;def&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;coding_environment&lt;/span&gt;
+    {
+      &lt;span style=&#34;color:#e6db74&#34;&gt;editor&lt;/span&gt;:            &lt;span style=&#34;color:#e6db74&#34;&gt;%w(RubyMine VS Code VIM)&lt;/span&gt;,
+      &lt;span style=&#34;color:#e6db74&#34;&gt;operating_system&lt;/span&gt;:  &lt;span style=&#34;color:#e6db74&#34;&gt;%w(Mac Linux Windows)&lt;/span&gt;
+    }
+  &lt;span style=&#34;color:#66d9ef&#34;&gt;end&lt;/span&gt;
+&lt;span style=&#34;color:#66d9ef&#34;&gt;end&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-ruby&#34; data-lang=&#34;ruby&#34;&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;module&lt;/span&gt; Contact
+  &lt;span style=&#34;color:#66d9ef&#34;&gt;def&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;details&lt;/span&gt;
+    {
+      &lt;span style=&#34;color:#e6db74&#34;&gt;LinkedIn&lt;/span&gt;:        &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;davidpatters0n&amp;#39;&lt;/span&gt;,
+      &lt;span style=&#34;color:#e6db74&#34;&gt;GitHub&lt;/span&gt;:          &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;davidpatters0n&amp;#39;&lt;/span&gt;
+  }
+  &lt;span style=&#34;color:#66d9ef&#34;&gt;end&lt;/span&gt;
+&lt;span style=&#34;color:#66d9ef&#34;&gt;end&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content>
+    </item>
+    
+  </channel>
+</rss>
