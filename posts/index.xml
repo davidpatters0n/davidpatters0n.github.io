@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on DJ Patterson - Ruby / JS / Go Developer in London</title>
-    <link>https://davidpatters0n.github.io/posts/</link>
+    <link>https://d33j.dev/posts/</link>
     <description>Recent content in Posts on DJ Patterson - Ruby / JS / Go Developer in London</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>DJ Patterson</copyright>
-    <lastBuildDate>Thu, 19 Aug 2021 18:05:00 +0100</lastBuildDate><atom:link href="https://davidpatters0n.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 19 Aug 2021 18:05:00 +0100</lastBuildDate><atom:link href="https://d33j.dev/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Startup or Not to Startup</title>
-      <link>https://davidpatters0n.github.io/posts/start-up-or-not-to-startup/</link>
+      <link>https://d33j.dev/posts/start-up-or-not-to-startup/</link>
       <pubDate>Thu, 19 Aug 2021 18:05:00 +0100</pubDate>
       
-      <guid>https://davidpatters0n.github.io/posts/start-up-or-not-to-startup/</guid>
+      <guid>https://d33j.dev/posts/start-up-or-not-to-startup/</guid>
       <description>Looking for my next role was a bit challenging, not because I didn’t have the experience; I’ve been working in software development for about 10 years. However, the question I found asking myself was, should I join another startup or join a larger size company? In this post, I&amp;rsquo;ll discuss and share my personal experiences of what it&amp;rsquo;s like to work for a startup vs. a large size company.
 Startup Working at a smaller sized tech company you&amp;rsquo;ll feel your impact straight away, this can include shipping code to production on day one.</description>
       <content>&lt;p&gt;Looking for my next role was a bit challenging, not because I didn’t have the experience; I’ve been working in software development for about 10 years. However, the question I found asking myself was, should I join another startup or join a larger size company? In this post, I&amp;rsquo;ll discuss and share my personal experiences of what it&amp;rsquo;s like to work for a startup vs. a large size company.&lt;/p&gt;
@@ -33,10 +33,10 @@ Startup Working at a smaller sized tech company you&amp;rsquo;ll feel your impac
     
     <item>
       <title>Hello World</title>
-      <link>https://davidpatters0n.github.io/posts/hello-world/</link>
+      <link>https://d33j.dev/posts/hello-world/</link>
       <pubDate>Fri, 13 Aug 2021 13:07:41 +0100</pubDate>
       
-      <guid>https://davidpatters0n.github.io/posts/hello-world/</guid>
+      <guid>https://d33j.dev/posts/hello-world/</guid>
       <description>Hello, World! The first post is always going to be the hardest. So here it goes, you can expect to find all my random ramblings or findings about things that I&amp;rsquo;ve learned.</description>
       <content>&lt;p&gt;Hello, World! The first post is always going to be the hardest. So here it goes, you can expect to find all my random ramblings or findings about things that I&amp;rsquo;ve learned.&lt;/p&gt;
 </content>
