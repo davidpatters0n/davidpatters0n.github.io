@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on DJ Patterson - Ruby / JS / Go Developer in London</title>
-    <link>https://davidpatters0n.github.io/posts/</link>
-    <description>Recent content in Posts on DJ Patterson - Ruby / JS / Go Developer in London</description>
+    <title>career on DJ Patterson - Ruby / JS / Go Developer in London</title>
+    <link>https://davidpatters0n.github.io/tags/career/</link>
+    <description>Recent content in career on DJ Patterson - Ruby / JS / Go Developer in London</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>DJ Patterson</copyright>
-    <lastBuildDate>Thu, 19 Aug 2021 18:05:00 +0100</lastBuildDate><atom:link href="https://davidpatters0n.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 19 Aug 2021 18:05:00 +0100</lastBuildDate><atom:link href="https://davidpatters0n.github.io/tags/career/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Start Up or Not to Startup</title>
       <link>https://davidpatters0n.github.io/posts/start-up-or-not-to-startup/</link>
@@ -28,17 +28,6 @@ Startup Working at a smaller sized tech company you&amp;rsquo;ll feel your impac
 &lt;p&gt;Whilst working at a large size company you can expect to work with individuals who’s experience is far more extensive than yours therefore giving you insight into principles that you may not have come across. This all, in turn, helps raise the bar, not for competition but it increases your overall skill set.&lt;/p&gt;
 &lt;p&gt;You&amp;rsquo;ll also find that a lot of detail goes into building project specifications. Projects are extremely well thought out and need to be backed by data to justify the &amp;ldquo;why&amp;rsquo;s&amp;rdquo; for building a given feature. It&amp;rsquo;s for this reason you&amp;rsquo;ll find at large-sized tech companies an extreme amount of details goes into the request for comment (RFC) documents.&lt;/p&gt;
 &lt;p&gt;Reflecting on my previous position and my current position, I think it&amp;rsquo;s fair to say that if you&amp;rsquo;re young and early in your software development career, working for a smaller sized tech company will have great benefits. It gave me the flexibility to bounce around, ship fast and work with bleeding-edge technology. Working for a larger sized company, I&amp;rsquo;m elevating my career further by working on a set of new complex issues that require solutions to scale efficiently.&lt;/p&gt;
-</content>
-    </item>
-    
-    <item>
-      <title>Hello World</title>
-      <link>https://davidpatters0n.github.io/posts/hello-world/</link>
-      <pubDate>Fri, 13 Aug 2021 13:07:41 +0100</pubDate>
-      
-      <guid>https://davidpatters0n.github.io/posts/hello-world/</guid>
-      <description>Hello, World! The first post is always going to be the hardest. So here it goes, you can expect to find all my random ramblings or findings about things that I&amp;rsquo;ve learned.</description>
-      <content>&lt;p&gt;Hello, World! The first post is always going to be the hardest. So here it goes, you can expect to find all my random ramblings or findings about things that I&amp;rsquo;ve learned.&lt;/p&gt;
 </content>
     </item>
     

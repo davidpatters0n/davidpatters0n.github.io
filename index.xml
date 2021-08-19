@@ -7,15 +7,38 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>DJ Patterson</copyright>
-    <lastBuildDate>Fri, 13 Aug 2021 13:07:41 +0100</lastBuildDate><atom:link href="https://davidpatters0n.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 19 Aug 2021 18:05:00 +0100</lastBuildDate><atom:link href="https://davidpatters0n.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Start Up or Not to Startup</title>
+      <link>https://davidpatters0n.github.io/posts/start-up-or-not-to-startup/</link>
+      <pubDate>Thu, 19 Aug 2021 18:05:00 +0100</pubDate>
+      
+      <guid>https://davidpatters0n.github.io/posts/start-up-or-not-to-startup/</guid>
+      <description>Looking for my next role was a bit challenging, not because I didn’t have the experience; I’ve been working in software development for about 10 years. However, the question I found asking myself was, should I join another startup or join a larger size company? In this post, I&amp;rsquo;ll discuss and share my personal experiences of what it&amp;rsquo;s like to work for a startup vs. a large size company.
+Startup Working at a smaller sized tech company you&amp;rsquo;ll feel your impact straight away, this can include shipping code to production on day one.</description>
+      <content>&lt;p&gt;Looking for my next role was a bit challenging, not because I didn’t have the experience; I’ve been working in software development for about 10 years. However, the question I found asking myself was, should I join another startup or join a larger size company? In this post, I&amp;rsquo;ll discuss and share my personal experiences of what it&amp;rsquo;s like to work for a startup vs. a large size company.&lt;/p&gt;
+&lt;h3 id=&#34;startup&#34;&gt;Startup&lt;/h3&gt;
+&lt;p&gt;Working at a smaller sized tech company you&amp;rsquo;ll feel your impact straight away, this can include shipping code to production on day one. If you have fresh ideas or want the opportunity to own a specific area you can do so.&lt;/p&gt;
+&lt;p&gt;Whilst working at &lt;a href=&#34;https://www.universe.com&#34;&gt;Universe&lt;/a&gt; I started as a software developer shipping features and working closely with our customer support team. At the time I joined we didn&amp;rsquo;t have any product managers, as a result, many of our features would come from the needs of our customers.&lt;/p&gt;
+&lt;p&gt;I recall a time where I had been given an opportunity to work on a feature called &lt;a href=&#34;https://blog.universe.com/payment-plans-have-arrived-c7c09abdcaf6?gi=bfddfc1a6d37&#34;&gt;Payment Plans&lt;/a&gt; this was my pathway to focus specifically on Payments. Whilst working on this feature, I was able to do a deep dive into one of the most conceptually challenging parts of the codebase. It was here that I was able to flex my chops and get recognition by becoming the Lead Engineer of Payments.&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s not always glitz and glamour, working for Universe came with its hardships. We had fewer resources which meant that at times I found myself being pulled in many different directions and the value of my context switching was high.&lt;/p&gt;
+&lt;p&gt;After 6 years at Universe, I had come to the conclusion that I had hit my contribution and growth ceiling. What I mean by this is that I had shipped countless features and gave my all to Universe. I was ready for a new challenge and wanted to replicate my success in another industry other than events &amp;amp; ticketing.&lt;/p&gt;
+&lt;h3 id=&#34;large-size-company&#34;&gt;Large Size company&lt;/h3&gt;
+&lt;p&gt;So what changed? Well, I joined &lt;a href=&#34;https://www.shopify.com&#34;&gt;Shopify&lt;/a&gt; as Senior Developer, Money. When I got invited to the onboarding I was told there would be a 2-week onboarding process. It was the first time I had experienced an extensive onboarding process. I was so used to joining a company and shipping PR&amp;rsquo;s to production on my first day. The onboarding experience was extremely thorough and required all new starters from different disciplines to part-take in coding exercises. An added benefit is that it allows non-technical employees to have insight into the development process and actually get hands-on experience.&lt;/p&gt;
+&lt;p&gt;Whilst working at a large size company you can expect to work with individuals who’s experience is far more extensive than yours therefore giving you insight into principles that you may not have come across. This all, in turn, helps raise the bar, not for competition but it increases your overall skill set.&lt;/p&gt;
+&lt;p&gt;You&amp;rsquo;ll also find that a lot of detail goes into building project specifications. Projects are extremely well thought out and need to be backed by data to justify the &amp;ldquo;why&amp;rsquo;s&amp;rdquo; for building a given feature. It&amp;rsquo;s for this reason you&amp;rsquo;ll find at large-sized tech companies an extreme amount of details goes into the request for comment (RFC) documents.&lt;/p&gt;
+&lt;p&gt;Reflecting on my previous position and my current position, I think it&amp;rsquo;s fair to say that if you&amp;rsquo;re young and early in your software development career, working for a smaller sized tech company will have great benefits. It gave me the flexibility to bounce around, ship fast and work with bleeding-edge technology. Working for a larger sized company, I&amp;rsquo;m elevating my career further by working on a set of new complex issues that require solutions to scale efficiently.&lt;/p&gt;
+</content>
+    </item>
+    
     <item>
       <title>Hello World</title>
       <link>https://davidpatters0n.github.io/posts/hello-world/</link>
       <pubDate>Fri, 13 Aug 2021 13:07:41 +0100</pubDate>
       
       <guid>https://davidpatters0n.github.io/posts/hello-world/</guid>
-      <description>Hello, world! The first post is always going to be the hardest. So here it goes, you can expect to find all my random ramblings or findings about things that I&amp;rsquo;ve learned.</description>
-      <content>&lt;p&gt;Hello, world! The first post is always going to be the hardest. So here it goes, you can expect to find all my random ramblings or findings about things that I&amp;rsquo;ve learned.&lt;/p&gt;
+      <description>Hello, World! The first post is always going to be the hardest. So here it goes, you can expect to find all my random ramblings or findings about things that I&amp;rsquo;ve learned.</description>
+      <content>&lt;p&gt;Hello, World! The first post is always going to be the hardest. So here it goes, you can expect to find all my random ramblings or findings about things that I&amp;rsquo;ve learned.&lt;/p&gt;
 </content>
     </item>
     
@@ -100,7 +123,8 @@
   }
   &lt;span style=&#34;color:#66d9ef&#34;&gt;end&lt;/span&gt;
 &lt;span style=&#34;color:#66d9ef&#34;&gt;end&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content>
+$$&lt;span style=&#34;color:#e6db74&#34;&gt;```
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content>
     </item>
     
   </channel>
